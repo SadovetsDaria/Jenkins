@@ -1,0 +1,50 @@
+
+[
+  {
+  "baseURL":"https://qauto.forstudy.space/api",
+  "data": [
+  {"name":"Екротп","errorName":"Name is invalid","lastName":"Dou", "email":"test@test.com","password":"Qwerty12345"},
+  {"name":"","errorName":"Name is required","lastName":"Dou","email":"test@test.com","password":"Qwerty12345"},
+  {"name":"H","errorName":"Name has to be from 2 to 20 characters long","lastName":"Dou","email":"test@test.com","password":"Qwerty12345"},
+  {"name":"Jerisdfghhbjjmovfgbfcccgnu","errorName":"Name has to be from 2 to 20 characters long","lastName":"Dou","email":"test@test.com","password":"Qwerty12345"},
+
+  {"name":"John","lastName":"Екротп","errorLastName":"Last name is invalid","email":"test@test.com","password":"Qwerty12345"},
+  {"name":"John","lastName":"","errorLastName":"Last name is required","email":"test@test.com","password":"Qwerty12345"},
+  {"name":"John","lastName":"H","errorLastName":"Last name has to be from 2 to 20 characters long","email":"test@test.com","password":"Qwerty12345"},
+  {"name":"John","lastName":"Jerisdfghhbjjmovfgbfcccgnu","errorLastName":"Last name is invalid","email":"test@test.com","password":"Qwerty12345"},
+
+  {"name":"John","lastName":"Dou","email":"ащrшщщ@gmail.com","errorEmail":"Email is incorrect","password":"Qwerty12345"},
+  {"name":"John","lastName":"Dou","email":"","errorEmail":"Email required","password":"Qwerty12345"},
+  {"name":"John","lastName":"Dou","email":"hfshfiiuhfgmail.com","errorEmail":"Email is incorrect","password":"Qwerty12345"},
+  {"name":"John","lastName":"Dou","email":"hfsh@gmailcom","errorEmail":"Email is incorrect","password":"Qwerty12345"},
+
+  {"name":"John","lastName":"Dou","email":"test@test.com","password":"Dh1ynj","errorPassword":"Password has to be from 8 to 15 characters long and contain at least one integer, one capital, and one small letter"},
+  {"name":"John","lastName":"Dou","email":"test@test.com","password":"","errorPassword":"Password required"},
+  {"name":"John","lastName":"Dou","email":"test@test.com","password":"Dhynjkkkj","errorPassword":"Password has to be from 8 to 15 characters long and contain at least one integer, one capital, and one small letter"},
+  {"name":"John","lastName":"Dou","email":"test@test.com","password":"Sghhtf458iygkkgk","errorPassword":"Password has to be from 8 to 15 characters long and contain at least one integer, one capital, and one small letter"}]
+},
+
+{
+  "baseURL":"https://qauto2.forstudy.space/api/",
+  "data": [
+  {"name":"Екротп","errorName":"Name is invalid","lastName":"Dou", "email":"test@test.com","password":"Qwerty12345"},
+  {"name":"","errorName":"Name is required","lastName":"Dou","email":"test@test.com","password":"Qwerty12345"},
+  {"name":"H","errorName":"Name has to be from 2 to 20 characters long","lastName":"Dou","email":"test@test.com","password":"Qwerty12345"},
+  {"name":"Jerisdfghhbjjmovfgbfcccgnu","errorName":"Name has to be from 2 to 20 characters long","lastName":"Dou","email":"test@test.com","password":"Qwerty12345"},
+
+  {"name":"John","lastName":"Екротп","errorLastName":"Last name is invalid","email":"test@test.com","password":"Qwerty12345"},
+  {"name":"John","lastName":"","errorLastName":"Last name is required","email":"test@test.com","password":"Qwerty12345"},
+  {"name":"John","lastName":"H","errorLastName":"Last name has to be from 2 to 20 characters long","email":"test@test.com","password":"Qwerty12345"},
+  {"name":"John","lastName":"Jerisdfghhbjjmovfgbfcccgnu","errorLastName":"Last name is invalid","email":"test@test.com","password":"Qwerty12345"},
+
+  {"name":"John","lastName":"Dou","email":"ащrшщщ@gmail.com","errorEmail":"Email is incorrect","password":"Qwerty12345"},
+  {"name":"John","lastName":"Dou","email":"","errorEmail":"Email required","password":"Qwerty12345"},
+  {"name":"John","lastName":"Dou","email":"hfshfiiuhfgmail.com","errorEmail":"Email is incorrect","password":"Qwerty12345"},
+  {"name":"John","lastName":"Dou","email":"hfsh@gmailcom","errorEmail":"Email is incorrect","password":"Qwerty12345"},
+
+  {"name":"John","lastName":"Dou","email":"test@test.com","password":"Dh1ynj","errorPassword":"Password has to be from 8 to 15 characters long and contain at least one integer, one capital, and one small letter"},
+  {"name":"John","lastName":"Dou","email":"test@test.com","password":"","errorPassword":"Password required"},
+  {"name":"John","lastName":"Dou","email":"test@test.com","password":"Dhynjkkkj","errorPassword":"Password has to be from 8 to 15 characters long and contain at least one integer, one capital, and one small letter"},
+  {"name":"John","lastName":"Dou","email":"test@test.com","password":"Sghhtf458iygkkgk","errorPassword":"Password has to be from 8 to 15 characters long and contain at least one integer, one capital, and one small letter"}]
+}
+]
